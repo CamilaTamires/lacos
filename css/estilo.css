@@ -1,0 +1,33 @@
+/* #resposta{
+    display: inline;
+} */
+#titulo {
+    color: #fd0202;
+    font-size: 70px;
+    text-align: center;
+}
+
+.botao_div {
+    display: flex;
+    justify-content: center;
+}
+
+#botao{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #23fd06;
+    width: 400px;
+    background-color: #ea01ff79;
+}
+
+#botao:hover {
+    background-color: aquamarine;
+    animation: tremer .2s;
+}
+@keyframes tremer{
+    0% {margin-left:0;};
+    25% {margin-left: 7px;};
+    50%{margin-left: 0;};
+    75%{margin-left: -7px;};
+    100%{margin-left: 0;};
+}
